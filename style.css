@@ -1,16 +1,17 @@
 html {
-  font-size: 20px;
+  font-size: 100%;
 }
 
 :root {
   --headingFont: 'Architects Daughter', cursive;
   --h1FontSize: 2rem;
-  --mainFontSize: 1rem;
+  --mainFontSize: 1.1rem;
 }
 
 body {
   height: 100vh;
   font-size: var(--mainFontSize);
+  background-color: antiquewhite;
 }
 
 .content {
@@ -44,4 +45,16 @@ a {
 h1 {
   font-family: var(--headingFont);
   font-size: var(--h1FontSize);
+}
+
+.recipe-img {
+  width: 450px;
+  border-radius: 25%;
+  box-shadow: 15px 16px 19px -13px rgba(239, 171, 46, 1);
+  border: 1px solid black;
+}
+
+.steps-list,
+.description-text {
+  max-width: 700px;
 }
